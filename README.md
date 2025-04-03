@@ -11,7 +11,7 @@ Layout da replicare:
 - React
 - Vite
 - JavaScript (ES6+)
-- CSS Modules (oppure Tailwind/SCSS se usato)
+- CSS 
 - Git
 
 
