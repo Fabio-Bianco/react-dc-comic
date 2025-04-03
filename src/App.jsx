@@ -1,3 +1,4 @@
+// src/App.jsx
 import MainLayout from './components/MainLayout';
 
 const App = () => {
@@ -5,3 +6,4 @@ const App = () => {
 };
 
 export default App;
+
