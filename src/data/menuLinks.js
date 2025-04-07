@@ -1,4 +1,5 @@
 
+// src/data/menuLinks.js
 const menuLinks = [
     'Characters',
     'Comics',
@@ -11,3 +12,6 @@ const menuLinks = [
     'News',
     'Shop',
   ];
+  
+  export default menuLinks;
+  

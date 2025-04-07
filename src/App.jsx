@@ -4,7 +4,6 @@ import JumboContent from './components/Jumbotron/JumboContent';
 import ServicesBar from './components/ServicesBar/ServicesBar';
 import Footer from './components/Footer/Footer';
 
-
 function App() {
   return (
     <>
