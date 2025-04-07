@@ -1,10 +1,15 @@
-import React from 'react';
+// src/components/Footer/Footer.jsx
 import './Footer.css';
+import FooterMenu from './FooterMenu';
+import FooterBottom from './FooterBottom';
 
 const Footer = () => {
   return (
     <footer className="site-footer">
-      {/* Contenuto del footer, come logo o informazioni di copyright */}
+      <div className="footer-top">
+        <FooterMenu />
+      </div>
+      <FooterBottom />
     </footer>
   );
 };
