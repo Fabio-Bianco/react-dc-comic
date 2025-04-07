@@ -20,7 +20,8 @@ const FooterMenu = () => {
           ))}
         </ul>
 
-        <h4>{shopSection.title}</h4>
+        {/* SHOP con margine sopra grazie alla classe */}
+        <h4 className="footer-subsection">{shopSection.title}</h4>
         <ul>
           {shopSection.links.map((link, i) => (
             <li key={`shop-${i}`}>{link}</li>
@@ -44,4 +45,3 @@ const FooterMenu = () => {
 };
 
 export default FooterMenu;
-

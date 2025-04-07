@@ -35,16 +35,17 @@
     width: 40px;
     height: auto;
   }
+
+
   
-  /* Responsive */
-  @media (max-width: 768px) {
-    .services-list {
-      flex-direction: column;
-      gap: 1.5rem;
+  @media (max-width: 480px) {
+    .services-list li {
+      font-size: 0.7rem;
+      gap: 0.4rem;
     }
   
-    .services-list li {
-      justify-content: center;
+    .services-list img {
+      width: 35px;
     }
   }
   

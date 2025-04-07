@@ -23,6 +23,7 @@
   }
   
   .footer-column h4 {
+    color: white;
     margin-bottom: 1rem;
   }
   
@@ -33,8 +34,13 @@
   }
   
   .footer-column li {
+    color: gray;
     margin-bottom: 0.5rem;
     font-size: 0.9rem;
+  }
+
+  .footer-subsection {
+    margin-top: 1.5em;
   }
   
   /* Bottom section */
@@ -83,4 +89,56 @@
   .social img:hover {
     filter: grayscale(0);
   }
+
+  .footer-top {
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-logo-bg {
+    position: absolute;
+    bottom: 0;
+    right: 2rem;
+    width: 200px;
+    opacity: 0.1;
+    transform: rotate(30deg);
+    z-index: 1;
+    pointer-events: none;
+  }
+ 
+  
+  @media (max-width: 768px) {
+    .footer-logo-bg {
+      display: none;
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .footer-bottom {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .signup-btn {
+      margin: 1rem auto;
+      display: block;
+      width: 80%;
+      text-align: center;
+    }
+  
+    .social {
+      margin: 1rem auto;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .social span {
+      display: none; /* Nasconde "FOLLOW US" */
+    }
+  }
+  
   
