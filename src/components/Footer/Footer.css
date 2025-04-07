@@ -1,12 +1,4 @@
-.site-footer {
-    background-image: url('../../assets/img/footer-bg.jpg'); /* Percorso relativo all'immagine */
-    background-size: cover; /* Copre l'intera area del footer */
-    background-position: center; /* Centra l'immagine */
-    color: white; /* Colore del testo, se presente */
-    height: 400px;
- ;
-  }
-  
+
   .site-footer {
     background-image: url('../../assets/img/footer-bg.jpg');
     background-size: cover;
@@ -22,11 +14,12 @@
   }
   
   .footer-columns {
-    
+    width: 100%;
+    max-width: 1200px;
     display: flex;
+    justify-content: flex-start;
     flex-wrap: wrap;
     gap: 3rem;
-    justify-content: flex-start;
   }
   
   .footer-column h4 {

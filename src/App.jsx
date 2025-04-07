@@ -1,21 +1,9 @@
+import menuLinks from './data/menuLinks';
 import Header from './components/Header/Header';
 import JumboContent from './components/Jumbotron/JumboContent';
 import ServicesBar from './components/ServicesBar/ServicesBar';
 import Footer from './components/Footer/Footer';
 
-
-const menuLinks = [
-  'Characters',
-  'Comics',
-  'Movies',
-  'TV',
-  'Games',
-  'Collectibles',
-  'Videos',
-  'Fans',
-  'News',
-  'Shop',
-];
 
 function App() {
   return (
