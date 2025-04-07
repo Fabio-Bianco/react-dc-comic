@@ -8,12 +8,11 @@ function App() {
   return (
     <>
       <Header links={menuLinks} />
-      <JumboContent />
-      <ServicesBar />
-      <Footer />
       <main>
-        {/* Altri contenuti */}
+        <JumboContent />
+        <ServicesBar />
       </main>
+      <Footer />
     </>
   );
 }
