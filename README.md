@@ -9,8 +9,7 @@ Questo progetto, sviluppato in React, è dedicato alla presentazione dei contenu
 
 - **Componenti Dinamici**: Costruito con componenti React riutilizzabili.
 - **Design Responsivo**: Ottimizzato per diverse dimensioni di schermo.
-- **Integrazione API**: Recupera dati dinamicamente (se applicabile).
-- **Routing**: Include navigazione per un'esperienza utente fluida.
+
 
 ## Installazione
 
