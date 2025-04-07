@@ -2,7 +2,7 @@
 import './JumboContent.css';
 
 
-export default function JumboContent() {
+const JumboContent = () => {
   return (
     <section className="jumbotron">
       <div className="jumbotron-content">
@@ -11,3 +11,5 @@ export default function JumboContent() {
     </section>
   );
 }
+
+export default JumboContent;

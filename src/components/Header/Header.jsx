@@ -1,24 +1,16 @@
-
-
+// src/components/Header/Header.jsx
 import './Header.css';
+import Menu from './Menu';
 
-export default function Header({ links }) {
-  return (
-    <header className="header">
-      <div className="header-container">
-        <div className="logo">
-          <img src="/dc-logo.png" alt="DC Comics Logo" />
-        </div>
-        <nav className="nav">
-          <ul className="menu">
-            {links.map((link, i) => (
-              <li key={i} className="menu-item">
-                <a href="#">{link}</a>
-              </li>
-            ))}
-          </ul>
-        </nav>
+const Header = ({ links }) => (
+  <header className="header">
+    <div className="header-container">
+      <div className="logo">
+        <img src="/dc-logo.png" alt="DC Comics Logo" />
       </div>
-    </header>
-  );
-}
+      <Menu links={links} />
+    </div>
+  </header>
+);
+
+export default Header;
