@@ -48,6 +48,7 @@
   }
   
   .signup-btn {
+    margin-left: 8em;
     padding: 0.75rem 1.5rem;
     background-color: transparent;
     border: 2px solid #0282f9;
@@ -62,6 +63,7 @@
   }
   
   .social {
+    margin-right: 10em;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -75,7 +77,6 @@
   .social img {
     width: 24px;
     height: 24px;
-    filter: grayscale(1);
     transition: filter 0.3s;
   }
   

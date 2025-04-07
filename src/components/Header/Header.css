@@ -10,7 +10,6 @@ ul {
 li {
     list-style: none;
 }
-/* src/components/Header/Header.css */
 
 .header {
     background-color: #ffffff;
@@ -28,7 +27,8 @@ li {
   
   
   .logo {
-    margin-right: auto; /* questo tiene il logo ancorato a sinistra */
+    margin-left: 50px; 
+    margin-right: auto; 
   }
   
   .logo img {
