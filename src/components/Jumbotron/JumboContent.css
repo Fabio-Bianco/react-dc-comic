@@ -1,37 +1,57 @@
 .jumbotron {
-  background-color: #1c1c1c; /* sfondo scuro */
-  color: white;
-  padding: 3rem 1rem;
+  width: 100%;
 }
 
-.jumbotron-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
+/* 🎨 TOP: Immagine jumbotron */
+.jumbotron-top {
+  height: 20rem;
+  background-size: cover;
+  position: relative;
+}
+
+/* Bottone CURRENT SERIES */
+.current-series-btn {
+  position: absolute;
+  bottom: -20px;
+  left: 16.5%;
+  background-color: #0282f9;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+/* 🖤 BOTTOM: Sfondo nero con le card */
+.jumbotron-bottom {
+  background-color: #1c1c1c;
+  padding: 3rem 1rem 4rem;
   text-align: center;
 }
 
+/* 🎲 Card in FLEX, 2 righe da 6 */
 .cards-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
-  margin-top: 2rem;
+ max-width: 70rem;
+  margin: 0 auto;
+  gap: 1.5rem;
 }
 
+/* 🔵 Bottone LOAD MORE */
 .load-more {
   background-color: #0282f9;
-  border: none;
-  padding: 0.6rem 2rem;
   color: white;
-  font-weight: bold;
+  border: none;
+  padding: 0.8rem 2rem;
   margin-top: 2rem;
+  font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-.load-more:hover {
-  background-color: #006cd1;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 
