@@ -18,9 +18,9 @@ const JumboContent = () => {
       {/* SEZIONE NERA CON LE CARD */}
       <div className="jumbotron-bottom">
         <div className="cards-container">
-          {comics.map((comic) => (
+          {comics.map(comic => 
             <ComicCard key={comic} comic={comic} />
-          ))}
+          )}
         </div>
 
         <button className="load-more">LOAD MORE</button>

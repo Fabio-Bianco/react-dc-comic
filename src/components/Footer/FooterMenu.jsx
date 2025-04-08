@@ -1,4 +1,4 @@
-// src/components/Footer/FooterMenu.jsx
+
 import footerLinks from '../../data/footerLinks';
 
 const FooterMenu = () => {
